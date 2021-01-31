@@ -1,0 +1,27 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  border: 3px;
+}
+.formInput {
+  display: flex;
+  flex-direction: column;
+}
+
+input:required:focus:valid {
+  border: 3px solid green;
+}
+input:required:focus:invalid {
+  border: 3px solid red;
+}
+input:focus {
+  outline: none;
+}
+button {
+  width: 120px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 5px;
+}

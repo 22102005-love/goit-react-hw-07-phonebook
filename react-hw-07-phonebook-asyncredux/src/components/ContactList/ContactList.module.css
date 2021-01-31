@@ -1,0 +1,11 @@
+.listContact {
+  font-size: 20px;
+  list-style-type: square;
+}
+.buttonDelete {
+  margin-left: 20px;
+}
+button:hover {
+  border: 2px solid rgba(255, 0, 0, 0.5);
+  background-color: rgb(240, 200, 222);
+}
